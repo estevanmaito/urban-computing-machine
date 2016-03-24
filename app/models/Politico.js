@@ -8,6 +8,7 @@ var Politico = new Schema({
     nome: String,
     estado: String,
     link: String,
+    imagem: String,
     partido: {type: String, ref: 'Partido'}
 });
 

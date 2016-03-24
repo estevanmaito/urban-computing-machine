@@ -1,5 +1,7 @@
 'use strict';
 
+var Formidable = require('formidable');
+var fs = require('fs');
 var Politico = require('../models/Politico.js');
 
 function PoliticoHandler () {
@@ -15,21 +17,40 @@ function PoliticoHandler () {
     };
 
     this.addPolitico = function(req,  res) {
-        console.log(req.body);
+        var form = new Formidable.IncomingForm();
 
-        var politico = new Politico(
-            {
-                nome: req.body.nome,
-                estado: req.body.estado,
-                link: req.body.link,
-                partido: req.body.partido
-            }
-        );
-
-        politico.save(function(err, result) {
+        form.parse(req, function(err, fields, files) {
             if (err) throw err;
 
-            res.redirect('/politico');
+            var foto = files.foto;
+            var dir = './public/img';
+            var caminho = dir + '/' + foto.name;
+
+            //fs.mkdirSync(dir);
+            var src = fs.createReadStream(foto.path);
+            var dest = fs.createWriteStream(caminho);
+
+            src.pipe(dest);
+
+            src.on('end', function() {
+                fs.unlinkSync(foto.path);
+            });
+
+            var politico = new Politico(
+                {
+                    nome: fields.nome,
+                    estado: fields.estado,
+                    link: fields.link,
+                    imagem: caminho,
+                    partido: fields.partido
+                }
+            );
+
+            politico.save(function(err, result) {
+                if (err) throw err;
+
+                res.redirect('/politico');
+            });
         });
     };
 }
