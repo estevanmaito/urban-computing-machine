@@ -8,7 +8,7 @@
                 </div>
                 <div class="form-group">
                     <label for="foto">Foto</label>
-                    <input type="file" name="foto" id="foto" accept="image/*" class="form-control">
+                    <input type="file" name="foto" id="foto" accept="image/*">
                 </div>
                 <div class="form-group">
                     <label for="estado">Estado</label>
@@ -16,7 +16,15 @@
                 </div>
                 <div class="form-group">
                     <label for="partido">Partido</label>
-                    <input type="text" name="partido" id="partido" class="form-control">
+                    <select name="partido" id="partido" class="form-control">
+                        {{#each data.partidos}}
+                        <option value="{{sigla}}">{{sigla}}</option>
+                        {{/each}}
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="link">Link</label>
+                    <input type="text" name="link" id="link" class="form-control">
                 </div>
                 <button type="submit" class="btn btn-success">Enviar</button>
             </form>

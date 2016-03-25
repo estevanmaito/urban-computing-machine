@@ -22,6 +22,7 @@ function PoliticoHandler () {
         form.parse(req, function(err, fields, files) {
             if (err) throw err;
 
+            // TODO: TESTAR SE TEM IMAGEM OU NÃO
             var foto = files.foto;
             var dir = './public/img';
             var caminho = dir + '/' + foto.name;
@@ -36,21 +37,24 @@ function PoliticoHandler () {
                 fs.unlinkSync(foto.path);
             });
 
-            var politico = new Politico(
-                {
-                    nome: fields.nome,
-                    estado: fields.estado,
-                    link: fields.link,
-                    imagem: caminho,
-                    partido: fields.partido
-                }
-            );
+            Politico
+                .findOneAndUpdate(
+                    {nome: fields.nome}, 
+                    {
+                        nome: fields.nome,
+                        estado: fields.estado,
+                        link: fields.link,
+                        imagem: 'img/' + files.foto.name,
+                        partido: fields.partido                    
+                    }, 
+                    {upsert: true}, 
+                    function(err, result) {
+                        if (err) throw err;
 
-            politico.save(function(err, result) {
-                if (err) throw err;
-
-                res.redirect('/politico');
-            });
+                        res.redirect('/politico');
+                    }
+                );
+            
         });
     };
 }

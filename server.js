@@ -42,7 +42,7 @@ app.route('/partido')
     .post(partidoHandler.addPartido);
 
 app.route('/politico')
-    .get(function(req, res) {res.render('politico')})
+    .get(partidoHandler.renderView)
     .post(politicoHandler.addPolitico)
 
 // retorna todos os políticos

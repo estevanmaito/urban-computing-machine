@@ -4,6 +4,23 @@ var Partido = require('../models/Partido.js');
 var Politico = require('../models/Politico.js');
 
 function PartidoHandler () {
+
+    this.renderView = function(req, res) {
+        var locals = res.locals;
+        locals.data = {
+            partidos: []
+        };
+        
+        Partido
+            .find({}, {_id: false, politicos: false})
+            .exec(function(err, result) {
+                if (err) throw err;
+
+                locals.data.partidos = result;
+            });
+        
+        res.render('politico');
+    };
     
     this.getPartido = function(req, res) {
         Partido
