@@ -1,0 +1,47 @@
+{"_id":{"$oid":"56f46b34c453364a312afb1f"},"nome":"Aécio Neves da Cunha","partido":"PSDB","imagem":"img/aecio.jpg","link":"","estado":"MG","__v":0}
+{"_id":{"$oid":"56f46c80c453364a312afb20"},"nome":"Adão Roberto Rodrigues Villaverde","partido":"PT","imagem":"img/adao-villaverde.jpeg","link":"","estado":"RS","__v":0}
+{"_id":{"$oid":"56f46d07c453364a312afb21"},"nome":"Maria do Rosário","partido":"PT","imagem":"img/maria-rosario.jpeg","link":"","estado":"RS","__v":0}
+{"_id":{"$oid":"56f46dcec453364a312afb22"},"nome":"Helen Cabral","partido":"PT","imagem":"img/helen-cabral.jpeg","link":"","estado":"RS","__v":0}
+{"_id":{"$oid":"56f46efcc453364a312afb23"},"nome":"Marcia Lopes","partido":"PT","imagem":"img/marcia-lopes.jpg","link":"","estado":"PR","__v":0}
+{"_id":{"$oid":"56f46fbcc453364a312afb24"},"nome":"Maria do Carmo Lara","partido":"PT","imagem":"img/maria-docarmo.jpg","link":"","estado":"MG","__v":0}
+{"_id":{"$oid":"56f47075c453364a312afb25"},"nome":"Gustavo Fruet","partido":"PDT","imagem":"img/fruet.jpg","link":"","estado":"PR","__v":0}
+{"_id":{"$oid":"56f470edc453364a312afb26"},"nome":"Ratinho Júnior","partido":"PSC","imagem":"img/ratinho-junior.jpg","link":"","estado":"PR","__v":0}
+{"_id":{"$oid":"56f47182c453364a312afb27"},"nome":"Luciano Ducci","partido":"PSB","imagem":"img/ducci.jpg","link":"","estado":"PR","__v":0}
+{"_id":{"$oid":"56f47226c453364a312afb28"},"nome":"Renato Casagrande","partido":"PSB","imagem":"img/casagrande.jpg","link":"","estado":"ES","__v":0}
+{"_id":{"$oid":"56f47303c453364a312afb29"},"nome":"Sérgio Machado","partido":"PMDB","imagem":"img/sergio-machado.jpg","link":"","estado":"RJ","__v":0}
+{"_id":{"$oid":"56f473f6c453364a312afb2a"},"nome":"Armando de Queiroz Monteiro Neto","partido":"PTB","imagem":"img/ArmandoMonteiroNeto.jpg","link":"","estado":"PE","__v":0}
+{"_id":{"$oid":"56f47516c453364a312afb2b"},"nome":"Sebastião Alves de Almeida","partido":"PT","imagem":"img/almeida.jpg","link":"","estado":"SP","__v":0}
+{"_id":{"$oid":"56f47598c453364a312afb2c"},"nome":"João Raimundo Colombo","partido":"PSD","imagem":"img/colombo.jpg","link":"","estado":"SC","__v":0}
+{"_id":{"$oid":"56f4764bc453364a312afb2d"},"nome":"Vanessa Grazziotin","partido":"PC do B","imagem":"img/vanessa.jpg","link":"","estado":"AM","__v":0}
+{"_id":{"$oid":"56f476d2c453364a312afb2e"},"nome":"Raul Belens Jungmann Pinto","partido":"PPS","imagem":"img/jungman.png","link":"","estado":"PE","__v":0}
+{"_id":{"$oid":"56f477c8c453364a312afb2f"},"nome":"Nelson Bornier","partido":"PMDB","imagem":"img/bornier.jpg","link":"","estado":"RJ","__v":0}
+{"_id":{"$oid":"56f47913c453364a312afb30"},"nome":"Elias Gomes da Silva","partido":"PSDB","imagem":"img/elias-gomes.jpg","link":"","estado":"PE","__v":0}
+{"_id":{"$oid":"56f47a63c453364a312afb31"},"nome":"Tarsila Rorato Crusius","partido":"PSDB","imagem":"img/tarsila.jpg","link":"","estado":"RS","__v":0}
+{"_id":{"$oid":"56f47b4bc453364a312afb32"},"nome":"Wambert di Lorenzo","partido":"PSD","imagem":"img/wambert.jpg","link":"","estado":"RS","__v":0}
+{"_id":{"$oid":"56f47bf9c453364a312afb33"},"nome":"Nelson Marchezan Júnior","partido":"PSDB","imagem":"img/nelson-marchezan.jpg","link":"","estado":"RS","__v":0}
+{"_id":{"$oid":"56f47c6fc453364a312afb34"},"nome":"José Serra","partido":"PSDB","imagem":"img/serra.jpg","link":"","estado":"SP","__v":0}
+{"_id":{"$oid":"56f47cdcc453364a312afb35"},"nome":"Antônio Duarte Nogueira Júnior","partido":"PSDB","imagem":"img/duarte-nogueira.jpg","link":"","estado":"SP","__v":0}
+{"_id":{"$oid":"56f47dbbc453364a312afb36"},"nome":"Paulo Alexandre Barbosa","partido":"PSDB","imagem":"img/paulo-alexandre.jpg","link":"","estado":"SP","__v":0}
+{"_id":{"$oid":"56f47e7ac453364a312afb37"},"nome":"Jutahy Magalhães Júnior","partido":"PSDB","imagem":"img/jutahy.jpg","link":"","estado":"BA","__v":0}
+{"_id":{"$oid":"56f47effc453364a312afb38"},"nome":"Paulo Henrique Saraiva Câmara","partido":"PSB","imagem":"img/paulo-camara.jpg","link":"","estado":"PE","__v":0}
+{"_id":{"$oid":"56f4805bc453364a312afb39"},"nome":"João Almeida dos Santos","partido":"PSDB","imagem":"img/joao-almeida.jpg","link":"","estado":"BA","__v":0}
+{"_id":{"$oid":"56f48590c453364a312afb3a"},"nome":"Marcio Araújo de Lacerda","partido":"PSB","imagem":"img/marcio-lacerda.jpg","link":"","estado":"MG","__v":0}
+{"_id":{"$oid":"56f4869cc453364a312afb3b"},"nome":"Ademir Lucas Gomes","partido":"PSDB","imagem":"img/ademir-lucas.jpg","link":"","estado":"MG","__v":0}
+{"_id":{"$oid":"56f48721c453364a312afb3c"},"nome":"Luiz Paulo Vellozo Lucas","partido":"PSDB","imagem":"img/luiz-paulo.jpg","link":"","estado":"ES","__v":0}
+{"_id":{"$oid":"56f48790c453364a312afb3d"},"nome":"Artur Virgílio do Carmo Ribeiro Neto","partido":"PSDB","imagem":"img/arthur-virgilio.jpg","link":"","estado":"AM","__v":0}
+{"_id":{"$oid":"56f488cec453364a312afb3e"},"nome":"Sebastião 'Tião' Bocalom Rodrigues","partido":"PSDB","imagem":"img/bocalom.jpg","link":"","estado":"AC","__v":0}
+{"_id":{"$oid":"56f489b4c453364a312afb3f"},"nome":"Teotônio Brandão Vilela Filho","partido":"PSDB","imagem":"img/teotonio.jpg","link":"","estado":"AL","__v":0}
+{"_id":{"$oid":"56f48a58c453364a312afb40"},"nome":"Rui Soares Palmeira","partido":"PSDB","imagem":"img/rui-palmeira.jpg","link":"","estado":"AL","__v":0}
+{"_id":{"$oid":"56f48ad2c453364a312afb41"},"nome":"Firmino da Silveira Soares Filho","partido":"PSDB","imagem":"img/firmino.jpg","link":"","estado":"PI","__v":0}
+{"_id":{"$oid":"56f48b98c453364a312afb42"},"nome":"Reinaldo Azambuja Silva","partido":"PSDB","imagem":"img/reinaldo-az.png","link":"","estado":"MS","__v":0}
+{"_id":{"$oid":"56f48c1bc453364a312afb43"},"nome":"Guilherme Maluf","partido":"PSDB","imagem":"img/maluf.jpg","link":"","estado":"MT","__v":0}
+{"_id":{"$oid":"56f48d47c453364a312afb44"},"nome":"Bruno Cavalcanti de Araújo","partido":"PSDB","imagem":"img/bruno.jpg","link":"","estado":"PE","__v":0}
+{"_id":{"$oid":"56f48dc5c453364a312afb45"},"nome":"Daniel Pires Coelho","partido":"PSDB","imagem":"img/daniel-coelho.jpg","link":"","estado":"PE","__v":0}
+{"_id":{"$oid":"56f48e60c453364a312afb46"},"nome":"Cícero Lucena Filho","partido":"PSDB","imagem":"img/cicero-lucena.jpg","link":"","estado":"PB","__v":0}
+{"_id":{"$oid":"56f48f3cc453364a312afb47"},"nome":"Romero Rodrigues Veiga","partido":"PSDB","imagem":"img/romero-rodrigues.jpg","link":"","estado":"PB","__v":0}
+{"_id":{"$oid":"56f49031c453364a312afb48"},"nome":"Rogério Simonetti Marinho","partido":"PSDB","imagem":"img/rogerio-marinho.jpg","link":"","estado":"RN","__v":0}
+{"_id":{"$oid":"56f490d7c453364a312afb49"},"nome":"Otavio Santos Silva Leite","partido":"PSDB","imagem":"img/otavio-leite.jpg","link":"","estado":"RJ","__v":0}
+{"_id":{"$oid":"56f49144c453364a312afb4a"},"nome":"Rodrigo Felinto Ibarra Epitácio Maia","partido":"DEM","imagem":"img/rodrigo-maia.jpeg","link":"","estado":"RJ","__v":0}
+{"_id":{"$oid":"56f491f2c453364a312afb4b"},"nome":"João Alves Filho","partido":"DEM","imagem":"img/joao-alves.jpeg","link":"","estado":"SE","__v":0}
+{"_id":{"$oid":"56f496abc453364a312afb4c"},"nome":"Eduardo da Costa Paes","partido":"PMDB","imagem":"img/eduardo-paes.jpg","link":"","estado":"RJ","__v":0}
+{"_id":{"$oid":"56f49810c453364a312afb4d"},"nome":"Aspásia Brasileiro Alcântara de Camargo","partido":"PV","imagem":"img/aspasia.jpg","link":"","estado":"RJ","__v":0}

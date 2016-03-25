@@ -1,0 +1,23 @@
+{"_id":{"$oid":"56f41b2306b876623d5d011c"},"sigla":"PSDB","politicos":[],"__v":0}
+{"_id":{"$oid":"56f41e48fca16438408264a9"},"sigla":"PT","politicos":[],"__v":0}
+{"_id":{"$oid":"56f41fbef4e8ac4f42e29beb"},"sigla":"PPS","politicos":[],"__v":0}
+{"_id":{"$oid":"56f41fec7e581b7f42f2472d"},"sigla":"PDT","politicos":[],"__v":0}
+{"_id":{"$oid":"56f4201514d75fc04203060c"},"sigla":"PC do B","politicos":[],"__v":0}
+{"_id":{"$oid":"56f42954355db8d84bd35d25"},"sigla":"PMDB","politicos":[],"__v":0}
+{"_id":{"$oid":"56f43742c453364a312afb0e"},"sigla":"PV","__v":0}
+{"_id":{"$oid":"56f46835c453364a312afb0f"},"sigla":"PP","__v":0}
+{"_id":{"$oid":"56f46838c453364a312afb10"},"sigla":"PSB","__v":0}
+{"_id":{"$oid":"56f4683bc453364a312afb11"},"sigla":"DEM","__v":0}
+{"_id":{"$oid":"56f4683ec453364a312afb12"},"sigla":"PSD","__v":0}
+{"_id":{"$oid":"56f4684dc453364a312afb13"},"sigla":"PSC","__v":0}
+{"_id":{"$oid":"56f46850c453364a312afb14"},"sigla":"PR","__v":0}
+{"_id":{"$oid":"56f46854c453364a312afb15"},"sigla":"PTB","__v":0}
+{"_id":{"$oid":"56f46858c453364a312afb16"},"sigla":"PTN","__v":0}
+{"_id":{"$oid":"56f4685bc453364a312afb17"},"sigla":"PRB","__v":0}
+{"_id":{"$oid":"56f4685fc453364a312afb18"},"sigla":"PT do B","__v":0}
+{"_id":{"$oid":"56f46863c453364a312afb19"},"sigla":"SD","__v":0}
+{"_id":{"$oid":"56f46866c453364a312afb1a"},"sigla":"PSOL","__v":0}
+{"_id":{"$oid":"56f4686ac453364a312afb1b"},"sigla":"PPL","__v":0}
+{"_id":{"$oid":"56f46872c453364a312afb1c"},"sigla":"PRP","__v":0}
+{"_id":{"$oid":"56f46874c453364a312afb1d"},"sigla":"PTC","__v":0}
+{"_id":{"$oid":"56f46877c453364a312afb1e"},"sigla":"PCB","__v":0}
